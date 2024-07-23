@@ -1,0 +1,47 @@
+/* General styles for box info */
+.box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Card styling */
+  .MuiCard-root {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card media styling */
+  .weather-image {
+    height: 160px; /* Adjust height to fit your needs */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Card content styling */
+  .MuiCardContent-root {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  /* Typography styles */
+  .MuiTypography-h5 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Card actions styling */
+  .MuiCardActions-root {
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  

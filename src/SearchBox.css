@@ -1,0 +1,56 @@
+/* General styles for search box */
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  .search-box h3 {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* TextField styling */
+  .search-box .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  /* Button styling */
+  .search-box .MuiButton-root {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .search-box .MuiButton-root:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #d32f2f;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ffebee;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
